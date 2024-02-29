@@ -30,9 +30,9 @@ namespace WebApplication1.Controllers
                     scarpa.NomeProdotto = reader["NomeProdotto"].ToString();
                     scarpa.Prezzo = Convert.ToDecimal(reader["Prezzo"]);
                     scarpa.Descrizione = reader["Descrizione"].ToString();
-                    scarpa.img1 = reader["img1"].ToString();
-                    scarpa.img2 = reader["img2"].ToString();
-                    scarpa.img3 = reader["img3"].ToString();
+                    scarpa.Img1 = reader["img1"].ToString();
+                    scarpa.Img2 = reader["img2"].ToString();
+                    scarpa.Img3 = reader["img3"].ToString();
                     scarpa.Visible = Convert.ToBoolean(reader["Visible"]);
                     Scarpe.Add(scarpa);
                 }
@@ -73,9 +73,9 @@ namespace WebApplication1.Controllers
                     scarpe.NomeProdotto = reader["NomeProdotto"].ToString();
                     scarpe.Prezzo = Convert.ToDecimal(reader["Prezzo"]);
                     scarpe.Descrizione = reader["Descrizione"].ToString();
-                    scarpe.img1 = reader["img1"].ToString();
-                    scarpe.img2 = reader["img2"].ToString();
-                    scarpe.img3 = reader["img3"].ToString();
+                    scarpe.Img1 = reader["img1"].ToString();
+                    scarpe.Img2 = reader["img2"].ToString();
+                    scarpe.Img3 = reader["img3"].ToString();
                     scarpe.Visible = Convert.ToBoolean(reader["Visible"]);
                 }
             }
